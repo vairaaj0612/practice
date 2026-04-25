@@ -4,6 +4,7 @@ pipeline {
     stage ('testing') {
       steps {
         echo "testing git webhook" 
+        echo "test successful"
       }
     }
   }
